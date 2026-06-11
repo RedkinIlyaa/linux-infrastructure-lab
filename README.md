@@ -17,6 +17,7 @@ Prepare a Linux server for a small software development team and practice core L
 ## Project Structure
 
 ```text
+README.md
 docs/
 screenshots/
 ```
@@ -24,6 +25,6 @@ screenshots/
 ## Completed Stages
 
 * [x] Users and Groups
-* [ ] Permissions
+* [x] Permissions
 * [ ] Processes
 * [ ] Packages
