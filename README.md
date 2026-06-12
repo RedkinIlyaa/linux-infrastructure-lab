@@ -25,6 +25,7 @@ docs/
 ├── 01-users-groups.md
 ├── 02-permissions.md
 ├── 03-process-management.md
+├── 04-packages.md
 screenshots/
 ```
 
@@ -33,7 +34,7 @@ screenshots/
 * [x] Users and Groups
 * [x] Permissions
 * [x] Processes
-* [ ] Packages
+* [x] Packages
 * [ ] Security
 * [ ] Cron
 * [ ] Bash Scripts
@@ -53,3 +54,9 @@ screenshots/
 - Inspected running processes
 - Monitored system activity
 - Identified and terminated a process by PID
+
+### Package Management
+- Searched software packages using APT
+- Installed OpenJDK 21
+- Inspected package information
+- Removed installed packages
