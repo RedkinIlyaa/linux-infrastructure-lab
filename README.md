@@ -13,12 +13,18 @@ Prepare a Linux server for a small software development team and practice core L
 * Permissions
 * Process Management
 * Package Management
+* Security
+* Cron
+* Bash Scripting
 
 ## Project Structure
 
 ```text
 README.md
 docs/
+├── 01-users-groups.md
+├── 02-permissions.md
+├── 03-process-management.md
 screenshots/
 ```
 
@@ -26,5 +32,24 @@ screenshots/
 
 * [x] Users and Groups
 * [x] Permissions
-* [ ] Processes
+* [x] Processes
 * [ ] Packages
+* [ ] Security
+* [ ] Cron
+* [ ] Bash Scripts
+
+## Implemented Features
+
+### User Management
+- Created users and groups
+- Configured group membership
+
+### Permission Management
+- Configured project directory permissions
+- Implemented SGID for group inheritance
+- Implemented Sticky Bit for shared directories
+
+### Process Management
+- Inspected running processes
+- Monitored system activity
+- Identified and terminated a process by PID
