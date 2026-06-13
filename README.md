@@ -26,6 +26,7 @@ docs/
 ├── 02-permissions.md
 ├── 03-process-management.md
 ├── 04-packages.md
+├── 05-network-security.md
 screenshots/
 ```
 
@@ -35,7 +36,7 @@ screenshots/
 * [x] Permissions
 * [x] Processes
 * [x] Packages
-* [ ] Security
+* [x] Security
 * [ ] Cron
 * [ ] Bash Scripts
 
@@ -60,3 +61,10 @@ screenshots/
 - Installed OpenJDK 21
 - Inspected package information
 - Removed installed packages
+
+### Security
+- Verified SSH key authentication
+- Inspected sudo group membership
+- Tested administrative access control
+- Configured UFW firewall rules
+- Allowed SSH access before enabling the firewall
