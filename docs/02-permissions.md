@@ -7,7 +7,7 @@ Set permissions for different team members.
 
 ### Backend Directory
 - administrator -> rwx
-- developers group -> rws (SGID)
+- developers group -> rwx + s(SGID)
 - other -> r_x
 
 ### Logs Directory
@@ -15,7 +15,7 @@ Set permissions for different team members.
 - other -> r_x
 
 ### Shared Directory
-- all users -> rwt (Stick bit)
+- all users -> rwx + t(Stick bit)
 So: users cannot delete files of other users
 
 ### Screenshots
