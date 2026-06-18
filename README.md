@@ -27,6 +27,7 @@ docs/
 ├── 03-process-management.md
 ├── 04-packages.md
 ├── 05-network-security.md
+├── 06-cron.md
 screenshots/
 ```
 
@@ -37,7 +38,7 @@ screenshots/
 * [x] Processes
 * [x] Packages
 * [x] Security
-* [ ] Cron
+* [x] Cron
 * [ ] Bash Scripts
 
 ## Implemented Features
@@ -68,3 +69,10 @@ screenshots/
 - Tested administrative access control
 - Configured UFW firewall rules
 - Allowed SSH access before enabling the firewall
+
+###  Cron
+- Created a scheduled task using cron
+- Configured automatic execution every 1 minutes
+- Redirected script output to a log file
+- Verified successful execution through generated log entries
+- Delete rule from crontab
