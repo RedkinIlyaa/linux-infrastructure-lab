@@ -4,7 +4,7 @@ Learn how to automate repetitive tasks in Linux using cron.
 
 ## Cron Job
 
-Created a cron task that executes a Bash script every 1 minutes.
+Created a cron task that executes a Bash script every minute.
 
 Cron configuration:
 
@@ -14,7 +14,7 @@ Cron configuration:
 ## Result
 
 The script automatically appends the current date and time to the log file.
-Stop crontab with crontab -r command.
+Removed the cron configuration using the crontab -r command.
 
 ## Screenshots
 

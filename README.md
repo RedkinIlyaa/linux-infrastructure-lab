@@ -21,6 +21,7 @@ Prepare a Linux server for a small software development team and practice core L
 
 ```text
 README.md
+
 docs/
 ├── 01-users-groups.md
 ├── 02-permissions.md
@@ -28,7 +29,11 @@ docs/
 ├── 04-packages.md
 ├── 05-network-security.md
 ├── 06-cron.md
+
 screenshots/
+
+scripts/
+├── cron-message.sh
 ```
 
 ## Completed Stages
@@ -75,4 +80,4 @@ screenshots/
 - Configured automatic execution every 1 minutes
 - Redirected script output to a log file
 - Verified successful execution through generated log entries
-- Delete rule from crontab
+- Removed cron configuration
