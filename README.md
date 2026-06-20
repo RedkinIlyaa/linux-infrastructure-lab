@@ -44,7 +44,7 @@ scripts/
 * [x] Packages
 * [x] Security
 * [x] Cron
-* [ ] Bash Scripts
+* [x] Bash Scripts
 
 ## Implemented Features
 
@@ -81,3 +81,9 @@ scripts/
 - Redirected script output to a log file
 - Verified successful execution through generated log entries
 - Removed cron configuration
+
+### Stage 7. Bash Scripts
+- Created a system information script
+- Created a backup automation script
+- Created a user management script
+- Practiced Bash variables, arguments, conditions and exit codes
