@@ -29,11 +29,15 @@ docs/
 ├── 04-packages.md
 ├── 05-network-security.md
 ├── 06-cron.md
+├── 07-bash-scripts.md
 
 screenshots/
 
 scripts/
 ├── cron-message.sh
+├── system_info.sh
+├── backup.sh
+├── create_user.sh
 ```
 
 ## Completed Stages
@@ -77,12 +81,12 @@ scripts/
 
 ###  Cron
 - Created a scheduled task using cron
-- Configured automatic execution every 1 minutes
+- Configured automatic execution every minute
 - Redirected script output to a log file
 - Verified successful execution through generated log entries
 - Removed cron configuration
 
-### Stage 7. Bash Scripts
+###  Bash Scripts
 - Created a system information script
 - Created a backup automation script
 - Created a user management script
